@@ -6,25 +6,26 @@ const CONFIG = {
     role: "full stack developer",
     bio: "I develop everything using node.",
     email: "ishannaik7@gmail.com",
-    linkedin: "morethanmin",
-    github: "morethanmin",
-    instagram: "",
+    linkedin: "ishannaik7",
+    github: "ishannaik7",
+    instagram: "ishannaik7",
   },
   projects: [
     {
-      name: `morethan-log`,
-      href: "https://github.com/morethanmin/morethan-log",
+      name: `notion-blog`,
+      href: "https://github.com/ishannaik7/notion-blog",
     },
   ],
   // blog setting (required)
   blog: {
     title: "Ishan Naik's Blog",
     description: "welcome to Ishan Naik's Blog!",
+    theme:"auto",
   },
 
   // CONFIG configration (required)
-  link: "https://morethan-log.vercel.app",
-  since: 2022, // If leave this empty, current year will be used.
+  link: "https://ishan-blog.vercel.app/",
+  since: 2024, // If leave this empty, current year will be used.
   lang: "en-US", // ['en-US', 'zh-CN', 'zh-HK', 'zh-TW', 'ja-JP', 'es-ES', 'ko-KR']
   ogImageGenerateURL: "https://og-image-korean.vercel.app", // The link to generate OG image, don't end with a slash
 
@@ -53,7 +54,7 @@ const CONFIG = {
     },
   },
   utterances: {
-    enable: true,
+    enable: false,
     config: {
       repo: process.env.NEXT_PUBLIC_UTTERANCES_REPO || "",
       "issue-term": "og:title",
