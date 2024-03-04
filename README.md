@@ -120,3 +120,4 @@ Sponsors template:
 ## License
 
 The [MIT License](LICENSE).
+UPDATED README TO CHECK UPDATING OF WEBSITE
