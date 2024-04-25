@@ -7,14 +7,47 @@ const CONFIG = {
     bio: "I develop everything using node.",
     email: "ishannaik7@gmail.com",
     linkedin: "ishannaik7",
-    github: "ishannaik7",
+    github: "ishannaik",
     instagram: "ishannaik7",
   },
-  projects: [
+projects: [
     {
-      name: `notion-blog`,
-      href: "https://github.com/ishannaik7/notion-blog",
+        name: "Carrd",
+        href: "https://ishannaik.carrd.co/"
     },
+    {
+        name: "Cloakbin",
+        href: "https://cloakbin.com"
+    },
+    {
+        name: "Brainwave",
+        href: "https://brainwaveaiapp.vercel.app/"
+    },
+    {
+        name: "Linktree",
+        href: "https://linktr.ee/ishannaik"
+    },
+    {
+        name: "AI Intelligent Camera",
+        href: "https://github.com/Ishannaik/AI-Intelligent-Camera"
+    },
+    {
+        name: "PDF To Audiobook Converter",
+        href: "https://github.com/Ishannaik/PDF-To-Audiobook-converter"
+    },
+    {
+        name: "URL Shortener",
+        href: "https://github.com/Ishannaik/UrlShortner"
+    },
+    {
+        name: "Notion Blog",
+        href: "https://github.com/Ishannaik/notion-blog"
+    },
+    {
+        name: "Manufacturing Defect Detection",
+        href: "https://github.com/Ishannaik/Manufacturing-Defect-Detection"
+    },
+    
   ],
   // blog setting (required)
   blog: {
